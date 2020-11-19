@@ -22,7 +22,6 @@ describe Counter do
       counter.increment
       counter.decrement
       expect(counter.count).to eq 0
-      expect(counter.time).to eq Time.now.strftime("%k:%M:%S")
     end
   end
 

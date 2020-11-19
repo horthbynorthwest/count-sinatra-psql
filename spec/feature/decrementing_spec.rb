@@ -10,6 +10,6 @@ feature "decrement the count" do
     click_button "Decrement"
     expect(page).to have_button('Decrement')
     expect(page).to have_content -1
-    expect(page).to have_content Time.now.strftime("%k:%M:%S")
+    # expect(page).to have_content Time.now.strftime("%k:%M:%S")
   end
 end
